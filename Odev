@@ -1,0 +1,26 @@
+int sınav1;
+Console.WriteLine("1.Sınav notunu giriniz.");
+sınav1 = int.Parse(Console.ReadLine());
+
+int sınav2;
+Console.WriteLine("2.Sınav notunuzu giriniz");
+sınav2 = int.Parse(Console.ReadLine());
+
+int sınav3;
+Console.WriteLine("3.Sınav notunuzu giriniz");
+sınav3 = int.Parse(Console.ReadLine());
+
+int ortalama;
+ortalama = (sınav1+sınav2+sınav3) / 3;
+
+Console.Write("ortalama");
+
+if (ortalama > 50)
+{
+Console.WriteLine("Geçtiniz");
+}
+
+else (ortalama < 50)
+{ 
+Console.WriteLine("Kaldınız");
+}
